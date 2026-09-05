@@ -26,7 +26,7 @@
 - `reports/tables/browse_depth_quartile.csv` / `buyer_vs_nonbuyer_depth.csv`（行为深度）
 - `reports/tables/category_cooccurrence.csv` / `first_purchase_cohort_repeat.csv`（捆绑 & 复购）
 
-## 面试要点（口径先行）
+## 口径与局限
 - 样本口径：天池 UserBehavior 抽样 10 万行 / 99,956 有效记录 / 983 用户 / 9 天窗口，非平台全量；
 - 留存口径：行为日志无注册信息，"留存"= 回访（有任意行为），首次购买队列样本小，仅作方向参考；
 - RFM 口径：无金额字段 → 只用 R/F，M 待接入订单金额后可补；

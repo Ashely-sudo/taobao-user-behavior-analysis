@@ -300,7 +300,7 @@ def page_cohort():
                           margin=dict(t=20, b=10), showlegend=False)
         st.plotly_chart(fig, width="stretch")
 
-    with st.expander("⚠️ 口径陷阱：为什么 D7/D8 回访率飙到 95%+？（面试加分点）"):
+    with st.expander("⚠️ 口径陷阱：为什么 D7/D8 回访率飙到 95%+？"):
         st.markdown(
             "1. **周末效应**：D7/D8 = 12/2、12/3，正是周六日，行为天然高峰（与原项目『周末行为激增』结论互相印证）；\n"
             "2. **抽样偏差**：10 万行样本按『行为』抽取，重度用户占比偏高，回访率被系统性高估。\n\n"

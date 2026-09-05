@@ -18,6 +18,6 @@ streamlit run streamlit_app/app.py
 ```
 
 ## 部署（Streamlit Community Cloud，免费）
-1. 把本仓库推送到 GitHub（已完成）；
+1. 将本仓库推送到 GitHub；
 2. 打开 https://share.streamlit.io 用 GitHub 登录；
 3. New app → 选择 `Ashely-sudo/taobao-user-behavior-analysis` → Main file 填 `streamlit_app/app.py` → Deploy。

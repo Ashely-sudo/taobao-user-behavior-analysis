@@ -68,7 +68,7 @@ python -m pytest
 运行后产物：
 - 报告：`reports/upgrade_summary.md` 及 4 份分模块报告 `reports/upgrade_*.md`
 - 图表：`reports/figures/upgrade_*.png`（共 6 张）
-- 明细表：`reports/tables/upgrade_*.csv`（RFM 分层 / 浏览深度 / 复购 / 捆绑）
+- 明细表：`reports/tables/`（RFM 分层 / 浏览深度 / 复购 / 捆绑等 CSV）
 
 ---
 
@@ -148,7 +148,7 @@ taobao-user-behavior-analysis/
 
 ---
 
-## 口径与局限（面试准备）
+## 口径与局限
 
 - **样本**：10 万行抽样，非平台全量；行为加权抽样会高估重度用户占比；
 - **留存**：行为日志无注册信息，"留存"= 回访（任意行为）；D7/D8 抬升为**周末效应**（12/2-12/3 周六日），非真实留存改善；
