@@ -16,6 +16,19 @@
 
 ---
 
+## 交互看板（Streamlit）
+
+📊 **《淘宝用户价值分层与召回策略工具》**：在分析结果之上构建的决策型看板，围绕
+"识别高价值用户 → 发现流失风险 → 召回/运营策略 → 指标验证" 的故事线，包含
+流失预警召回工作台、Cohort 留存（含口径陷阱说明）、行为×转化、捆绑机会 5 个页面。
+
+```bash
+pip install -r streamlit_app/requirements.txt
+streamlit run streamlit_app/app.py
+```
+
+代码与页面说明见 [`streamlit_app/`](streamlit_app/)。
+
 ## 数据来源与口径
 
 | 字段 | 说明 |
